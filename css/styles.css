@@ -37,6 +37,10 @@ height: 25.5rem;
     border-radius: 6px;
     margin-top: 20px;
 }
+.img-box:hover{
+
+  /* width: 50px; */
+}
 .text-inside-box{
   text-align: left;
   width: 85%;
@@ -82,4 +86,25 @@ padding-top: 4px;
 }
 .bottom-text{
       padding-top: 3px;
+}
+
+.text-action{
+    margin: 10px 0 0 0;
+    text-decoration:none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+}
+.text2-action{
+    margin: 10px 0 0 0;
+    text-decoration:none;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+.text-action:hover{
+  color: hsl(178, 100%, 50%);
+}
+.text2-action:hover{
+  color: hsl(178, 100%, 50%);
 }
