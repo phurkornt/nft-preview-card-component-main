@@ -29,7 +29,9 @@ p{
 height: 25.5rem;
   background-color:  hsl(216, 50%, 16%);
   border-radius: 10px;
-
+  padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
 }
 .img-box{
   position: relative;
@@ -42,8 +44,10 @@ height: 25.5rem;
   /* width: 50px; */
 }
 .text-inside-box{
+  margin-left: 0px;
+padding-top: 10px;
   text-align: left;
-  width: 85%;
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 .left-box{
@@ -107,4 +111,34 @@ padding-top: 4px;
 }
 .text2-action:hover{
   color: hsl(178, 100%, 50%);
+}
+.img-boxV2{
+  background-image: url("../images/image-equilibrium.jpg");
+  background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+min-height: 14.75rem;
+border-radius: 8px;
+cursor: pointer;
+}
+.img-boxV3{
+  min-height: 14.75rem;
+    border-radius: 8px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-image: none;
+}
+.img-boxV3:hover{
+  background-image: url("../images/icon-view.svg");
+background-color: hsl(178, 100%, 50%);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: 20% 20%;
+opacity: 0.5;
+transition: background-color ease-in-out 0.3s;
+}
+.box{
+  position: relative;
 }
